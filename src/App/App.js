@@ -6,6 +6,7 @@ import LoginPage from "../pages/LoginPage/LoginPage";
 import userService from "../../src/utils/userService";
 import {Route, Switch, Redirect} from "react-router-dom";
 import ExpensePage from "../pages/ExpensePage/ExpensePage"
+import Budget from "../components/budget/Budget"
   
 
 class App extends Component {
@@ -26,7 +27,7 @@ class App extends Component {
   render (){
     return(
       <div>
-        <header className='header'>Expenses</header>
+        <header className='header'>Expenses huh</header>
         <Switch>
           <Route exact path='/' render={() => 
           <ExpensePage 
@@ -51,6 +52,9 @@ class App extends Component {
           <Redirect to='/login' />
           }/>
         </Switch>
+      <div className="App">
+        <Budget />
+      </div>
       </div>
     )
   }
