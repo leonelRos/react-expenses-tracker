@@ -36,7 +36,7 @@ class EditExpense extends Component {
         <h2>Edit Expense</h2>
         <form ref={this.formRef} autoComplete="off" onSubmit={this.handleSubmit}>
           <div className="form-group">
-            <label className="edit-label">Category: </label>
+            <label className="edit-label">Expense Category: </label>
             <input
               className="form-control"
               name="category"
@@ -45,7 +45,7 @@ class EditExpense extends Component {
             />
           </div>
           <div className="form-group">
-            <label className="edit-label">Name of Item: </label>
+            <label className="edit-label">Expense: </label>
             <input
               className="form-control"
               name="name"
@@ -54,7 +54,7 @@ class EditExpense extends Component {
             />
           </div>
           <div className="form-group">
-            <label className="edit-label">Cost: $</label>
+            <label className="edit-label">Price: $</label>
             <input
               className="form-control"
               name="cost"

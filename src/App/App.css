@@ -35,3 +35,10 @@
 body {
   color: black;
 }
+.NavBar-welcome {
+  color: rgb(27, 27, 233);
+}
+form {
+  background-color: #09d3ac;
+  display: inline-block;
+}

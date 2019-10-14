@@ -1,15 +1,15 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
-import Card from 'react-bootstrap/Card';
+// import Card from 'react-bootstrap/Card';
 
 
 const ExpenseDisplay = (props) => { 
     let id = props.id;
     return (
-            <Card className="card">
-                <label className="category-label">Category: {props.category} </label>
-                <label className="name-label">Name of Item: {props.name} </label>
-                <label className="cost-label">Cost: ${props.cost} </label>
+            <form className="card">
+                <label className="category-label">Expense Category: {props.category} </label>
+                <label className="name-label">Expense: {props.name} </label>
+                <label className="cost-label">Price: ${props.cost} </label>
                 <div>
                     <button
                         onClick={() => props.handleDelete(id)}
@@ -25,7 +25,7 @@ const ExpenseDisplay = (props) => {
                         Edit
                     </Link>
                 </div>
-            </Card>
+            </form>
     );
 }
 
