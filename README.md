@@ -7,7 +7,7 @@
 Expense tracker is an app where you can save and organize your expenses so you will never miss a REFUND!!
 
 ---
-
+[Login/Signup](https://github.com/leonelRos/react-expenses-tracker/blob/master/public/Screen1.png)
 
 ---
 
@@ -20,6 +20,10 @@ Expense tracker is an app where you can save and organize your expenses so you w
 * User clicks Expense List to view all added expenses
 * User can click delete button to delete an expense
 * User can click edit button to edit/update an expense
+
+---
+
+[Show-Expenses](https://github.com/leonelRos/react-expenses-tracker/blob/master/public/screen2.png)
 
 ---
 
