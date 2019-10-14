@@ -15,9 +15,9 @@ function signup(user) {
     // Probably a duplicate email
     throw new Error('Email already taken!');
   })
-  .then(({token}) => {
+  .then(({token}) => 
     tokenService.setToken(token)
-  });
+);
 }
 
 function getUser() {
@@ -43,8 +43,8 @@ function login(creds) {
 }
 
 export default {
-  login,
   signup,
   getUser,
-  logout
+  logout,
+  login
 };
