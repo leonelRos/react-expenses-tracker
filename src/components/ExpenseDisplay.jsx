@@ -6,9 +6,9 @@ const ExpenseDisplay = (props) => {
     let id = props.id;
     return (
             <form className="card">
-                <label className="category-label">Expense Category: {props.category} </label>
-                <label className="name-label">Expense: {props.name} </label>
-                <label className="cost-label">Price: ${props.cost} </label>
+                <label className="category-label"><strong>Expense Category: {props.category} </strong></label>
+                <label className="name-label"><strong>Expense: {props.name} </strong></label>
+                <label className="cost-label"><strong>Price: ${props.cost} </strong></label>
                 <div>
                     <button
                         onClick={() => props.handleDelete(id)}
