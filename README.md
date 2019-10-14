@@ -35,6 +35,8 @@ Planned future enhancements:
 * Add Date/Calendar to view expenses in each day
 * More styling
 * Add a deadline for expenses
+* Implement Filter
+* Implement Numeral library
 ---
 ### Technologies Used
 

@@ -23,10 +23,7 @@ class App extends Component {
     };
   }
 
-  // async componentDidMount() {
-  //   const items = await expenseService.index();
-  //   this.setState({items}); 
-  // }
+  
 
   async componentDidMount() {
     const items = await expenseService.getAll();
@@ -47,7 +44,6 @@ class App extends Component {
     );
     this.setState(
       {items: newItemsArray},
-      // Using cb to wait for state to update before rerouting
       () => this.props.history.push('/expenses')
     );
   }
